@@ -1,0 +1,3 @@
+D:/BIT/2. Second Semister/Project/project code/build/CMakeFiles/AIFolderManager.dir
+D:/BIT/2. Second Semister/Project/project code/build/CMakeFiles/edit_cache.dir
+D:/BIT/2. Second Semister/Project/project code/build/CMakeFiles/rebuild_cache.dir
