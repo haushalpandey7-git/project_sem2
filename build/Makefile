@@ -128,6 +128,54 @@ AIFolderManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/build
 .PHONY : AIFolderManager/fast
 
+src/AIClassifier.obj: src/AIClassifier.cpp.obj
+.PHONY : src/AIClassifier.obj
+
+# target to build an object file
+src/AIClassifier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj
+.PHONY : src/AIClassifier.cpp.obj
+
+src/AIClassifier.i: src/AIClassifier.cpp.i
+.PHONY : src/AIClassifier.i
+
+# target to preprocess a source file
+src/AIClassifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.i
+.PHONY : src/AIClassifier.cpp.i
+
+src/AIClassifier.s: src/AIClassifier.cpp.s
+.PHONY : src/AIClassifier.s
+
+# target to generate assembly for a file
+src/AIClassifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.s
+.PHONY : src/AIClassifier.cpp.s
+
+src/FileClassifier.obj: src/FileClassifier.cpp.obj
+.PHONY : src/FileClassifier.obj
+
+# target to build an object file
+src/FileClassifier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj
+.PHONY : src/FileClassifier.cpp.obj
+
+src/FileClassifier.i: src/FileClassifier.cpp.i
+.PHONY : src/FileClassifier.i
+
+# target to preprocess a source file
+src/FileClassifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.i
+.PHONY : src/FileClassifier.cpp.i
+
+src/FileClassifier.s: src/FileClassifier.cpp.s
+.PHONY : src/FileClassifier.s
+
+# target to generate assembly for a file
+src/FileClassifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.s
+.PHONY : src/FileClassifier.cpp.s
+
 src/FileScanner.obj: src/FileScanner.cpp.obj
 .PHONY : src/FileScanner.obj
 
@@ -185,6 +233,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AIFolderManager
+	@echo ... src/AIClassifier.obj
+	@echo ... src/AIClassifier.i
+	@echo ... src/AIClassifier.s
+	@echo ... src/FileClassifier.obj
+	@echo ... src/FileClassifier.i
+	@echo ... src/FileClassifier.s
 	@echo ... src/FileScanner.obj
 	@echo ... src/FileScanner.i
 	@echo ... src/FileScanner.s

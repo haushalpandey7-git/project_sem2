@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/BIT/2. Second Semister/Project/project code/src/AIClassifier.cpp" "CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj.d"
+  "D:/BIT/2. Second Semister/Project/project code/src/FileClassifier.cpp" "CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj.d"
   "D:/BIT/2. Second Semister/Project/project code/src/FileScanner.cpp" "CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj.d"
   "D:/BIT/2. Second Semister/Project/project code/src/main.cpp" "CMakeFiles/AIFolderManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/main.cpp.obj.d"
   )
