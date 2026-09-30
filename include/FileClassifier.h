@@ -1,11 +1,16 @@
-#ifndef FILECLASSIFIER_H
-#define FILECLASSIFIER_H
+#ifndef FILE_CLASSIFIER_H
+#define FILE_CLASSIFIER_H
 
 #include <string>
 
+#include "AIClassifier.h"
+
 using namespace std;
 
-class FileClassifier {
+class FileClassifier{
+private:
+    AIClassifier ai;
+
 public:
     string classifyFile(const string& filePath);
 };

@@ -12,4 +12,8 @@ add_executable(AIFolderManager
     src/FileScanner.cpp
     src/FileClassifier.cpp
     src/AIClassifier.cpp
+    src/FolderManager.cpp
+    src/Logger.cpp
 )
+
+target_link_libraries(AIFolderManager PRIVATE winhttp)

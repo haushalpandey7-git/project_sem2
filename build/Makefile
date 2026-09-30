@@ -200,6 +200,54 @@ src/FileScanner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.s
 .PHONY : src/FileScanner.cpp.s
 
+src/FolderManager.obj: src/FolderManager.cpp.obj
+.PHONY : src/FolderManager.obj
+
+# target to build an object file
+src/FolderManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj
+.PHONY : src/FolderManager.cpp.obj
+
+src/FolderManager.i: src/FolderManager.cpp.i
+.PHONY : src/FolderManager.i
+
+# target to preprocess a source file
+src/FolderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.i
+.PHONY : src/FolderManager.cpp.i
+
+src/FolderManager.s: src/FolderManager.cpp.s
+.PHONY : src/FolderManager.s
+
+# target to generate assembly for a file
+src/FolderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.s
+.PHONY : src/FolderManager.cpp.s
+
+src/Logger.obj: src/Logger.cpp.obj
+.PHONY : src/Logger.obj
+
+# target to build an object file
+src/Logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj
+.PHONY : src/Logger.cpp.obj
+
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
+
+# target to preprocess a source file
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
+
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
+
+# target to generate assembly for a file
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -242,6 +290,12 @@ help:
 	@echo ... src/FileScanner.obj
 	@echo ... src/FileScanner.i
 	@echo ... src/FileScanner.s
+	@echo ... src/FolderManager.obj
+	@echo ... src/FolderManager.i
+	@echo ... src/FolderManager.s
+	@echo ... src/Logger.obj
+	@echo ... src/Logger.i
+	@echo ... src/Logger.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

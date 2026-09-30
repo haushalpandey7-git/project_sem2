@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/BIT/2. Second Semister/Project/project code/src/AIClassifier.cpp" "CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj.d"
   "D:/BIT/2. Second Semister/Project/project code/src/FileClassifier.cpp" "CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj.d"
   "D:/BIT/2. Second Semister/Project/project code/src/FileScanner.cpp" "CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj.d"
+  "D:/BIT/2. Second Semister/Project/project code/src/FolderManager.cpp" "CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj.d"
+  "D:/BIT/2. Second Semister/Project/project code/src/Logger.cpp" "CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj.d"
   "D:/BIT/2. Second Semister/Project/project code/src/main.cpp" "CMakeFiles/AIFolderManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/AIFolderManager.dir/src/main.cpp.obj.d"
   )
 

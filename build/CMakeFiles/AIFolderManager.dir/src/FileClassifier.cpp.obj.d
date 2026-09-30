@@ -105,6 +105,7 @@ CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj: \
  C:/MinGW/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
  C:/MinGW/mingw64/include/c++/16.1.0/tuple \
  C:/MinGW/mingw64/include/c++/16.1.0/bits/invoke.h \
+ D:/BIT/2.\ Second\ Semister/Project/project\ code/include/AIClassifier.h \
  C:/MinGW/mingw64/include/c++/16.1.0/filesystem \
  C:/MinGW/mingw64/include/c++/16.1.0/bits/fs_fwd.h \
  C:/MinGW/mingw64/include/c++/16.1.0/system_error \

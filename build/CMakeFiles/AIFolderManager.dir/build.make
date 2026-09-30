@@ -131,12 +131,44 @@ CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.s"
 	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\BIT\2. Second Semister\Project\project code\src\AIClassifier.cpp" -o CMakeFiles\AIFolderManager.dir\src\AIClassifier.cpp.s
 
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj: CMakeFiles/AIFolderManager.dir/flags.make
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj: CMakeFiles/AIFolderManager.dir/includes_CXX.rsp
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj: D:/BIT/2.\ Second\ Semister/Project/project\ code/src/FolderManager.cpp
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj: CMakeFiles/AIFolderManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj -MF CMakeFiles\AIFolderManager.dir\src\FolderManager.cpp.obj.d -o CMakeFiles\AIFolderManager.dir\src\FolderManager.cpp.obj -c "D:\BIT\2. Second Semister\Project\project code\src\FolderManager.cpp"
+
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.i"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\BIT\2. Second Semister\Project\project code\src\FolderManager.cpp" > CMakeFiles\AIFolderManager.dir\src\FolderManager.cpp.i
+
+CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.s"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\BIT\2. Second Semister\Project\project code\src\FolderManager.cpp" -o CMakeFiles\AIFolderManager.dir\src\FolderManager.cpp.s
+
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj: CMakeFiles/AIFolderManager.dir/flags.make
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj: CMakeFiles/AIFolderManager.dir/includes_CXX.rsp
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj: D:/BIT/2.\ Second\ Semister/Project/project\ code/src/Logger.cpp
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj: CMakeFiles/AIFolderManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj -MF CMakeFiles\AIFolderManager.dir\src\Logger.cpp.obj.d -o CMakeFiles\AIFolderManager.dir\src\Logger.cpp.obj -c "D:\BIT\2. Second Semister\Project\project code\src\Logger.cpp"
+
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AIFolderManager.dir/src/Logger.cpp.i"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\BIT\2. Second Semister\Project\project code\src\Logger.cpp" > CMakeFiles\AIFolderManager.dir\src\Logger.cpp.i
+
+CMakeFiles/AIFolderManager.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AIFolderManager.dir/src/Logger.cpp.s"
+	C:\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\BIT\2. Second Semister\Project\project code\src\Logger.cpp" -o CMakeFiles\AIFolderManager.dir\src\Logger.cpp.s
+
 # Object files for target AIFolderManager
 AIFolderManager_OBJECTS = \
 "CMakeFiles/AIFolderManager.dir/src/main.cpp.obj" \
 "CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj" \
 "CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj" \
-"CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj"
+"CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj" \
+"CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj" \
+"CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj"
 
 # External object files for target AIFolderManager
 AIFolderManager_EXTERNAL_OBJECTS =
@@ -145,11 +177,13 @@ AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/main.cpp.obj
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/FileScanner.cpp.obj
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/FileClassifier.cpp.obj
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/AIClassifier.cpp.obj
+AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/FolderManager.cpp.obj
+AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/src/Logger.cpp.obj
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/build.make
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/linkLibs.rsp
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/objects1.rsp
 AIFolderManager.exe: CMakeFiles/AIFolderManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AIFolderManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AIFolderManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AIFolderManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

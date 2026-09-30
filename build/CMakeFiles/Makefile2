@@ -84,12 +84,12 @@ clean: CMakeFiles/AIFolderManager.dir/clean
 CMakeFiles/AIFolderManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target AIFolderManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target AIFolderManager"
 .PHONY : CMakeFiles/AIFolderManager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AIFolderManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AIFolderManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" 0
 .PHONY : CMakeFiles/AIFolderManager.dir/rule
@@ -101,7 +101,7 @@ AIFolderManager: CMakeFiles/AIFolderManager.dir/rule
 # codegen rule for target.
 CMakeFiles/AIFolderManager.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AIFolderManager.dir\build.make CMakeFiles/AIFolderManager.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target AIFolderManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\BIT\2. Second Semister\Project\project code\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Finished codegen for target AIFolderManager"
 .PHONY : CMakeFiles/AIFolderManager.dir/codegen
 
 # clean rule for target.

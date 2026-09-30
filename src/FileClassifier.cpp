@@ -35,5 +35,5 @@ string FileClassifier::classifyFile(const string& filePath) {
         return "Audio";
     }
 
-    return "Others";
+    return ai.classifyWithAI(filePath);
 }
