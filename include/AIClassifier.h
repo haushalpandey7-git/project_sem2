@@ -3,11 +3,9 @@
 
 #include <string>
 
-using namespace std;
-
-class AIClassifier {
+class AIClassifier{
 public:
-    string classifyWithAI(const string& fileName);
+    std::string classifyWithAI(const std::string& fileName);
 };
 
 #endif

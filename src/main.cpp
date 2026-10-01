@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <utility>
 
 #include "FileScanner.h"
 #include "FileClassifier.h"
@@ -74,16 +75,20 @@ int main(){
                 continue;
             }
 
-            cout << "\nOrganization Preview:\n\n";
+            cout << "\n========== Organization Preview ==========\n\n";
 
-            for (const string &file : files){
-                string category = classifier.classifyFile(file);
+            for (int i = 0; i < files.size(); i++){
+                string category = classifier.classifyFile(files[i]);
 
-                cout << file
+                cout << i + 1 << ". "
+                     << files[i]
                      << " -> "
                      << category
                      << endl;
             }
+
+            cout << "\n==========================================\n";
+            cout << "No files were moved.\n";
         }
 
         // OPTION 3: Organize Files
@@ -101,16 +106,26 @@ int main(){
                 continue;
             }
 
-            cout << "\nOrganization Preview:\n\n";
+            // Store file + category together
+            vector<pair<string, string>> classifiedFiles;
 
-            for (const string &file : files){
-                string category = classifier.classifyFile(file);
+            cout << "\n========== Organization Preview ==========\n\n";
 
-                cout << file
+            for (int i = 0; i < files.size(); i++){
+                string category = classifier.classifyFile(files[i]);
+
+                classifiedFiles.push_back(
+                    {files[i], category}
+                );
+
+                cout << i + 1 << ". "
+                     << files[i]
                      << " -> "
                      << category
                      << endl;
             }
+
+            cout << "\n==========================================\n";
 
             char confirm;
 
@@ -120,11 +135,12 @@ int main(){
             if (confirm == 'y' || confirm == 'Y'){
                 cout << "\nOrganizing files...\n\n";
 
-                for (const string &file : files)
-                {
-                    string category = classifier.classifyFile(file);
-
-                    manager.organizeFile(file, category);
+                // Use already classified results
+                for (const auto &item : classifiedFiles){
+                    manager.organizeFile(
+                        item.first,
+                        item.second
+                    );
                 }
 
                 cout << "\nFile organization completed.\n";

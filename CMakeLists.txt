@@ -14,6 +14,28 @@ add_executable(AIFolderManager
     src/AIClassifier.cpp
     src/FolderManager.cpp
     src/Logger.cpp
+    
 )
 
-target_link_libraries(AIFolderManager PRIVATE winhttp)
+target_include_directories(AIFolderManager PRIVATE
+    include
+    D:/msys64/ucrt64/include
+)
+
+target_link_directories(AIFolderManager PRIVATE
+    D:/msys64/ucrt64/lib
+)
+
+target_link_libraries(AIFolderManager PRIVATE
+    
+    curl
+)
+
+
+add_executable(JsonTest
+    src/json_test.cpp
+)
+
+target_include_directories(JsonTest PRIVATE
+    include
+)
