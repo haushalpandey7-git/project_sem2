@@ -30,12 +30,3 @@ target_link_libraries(AIFolderManager PRIVATE
     
     curl
 )
-
-
-add_executable(JsonTest
-    src/json_test.cpp
-)
-
-target_include_directories(JsonTest PRIVATE
-    include
-)
